@@ -2,7 +2,7 @@
 
 Search Enzyme JS API in [https://github.com/airbnb/enzyme/tree/master/docs/api](https://github.com/airbnb/enzyme/tree/master/docs/api). 
 
-![Demo](docs/demo_immutablejs_search_api.gif)
+![Demo](docs/demo_enzyme_js_api_search.gif)
 
 ## Installation
 
