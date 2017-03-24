@@ -2,6 +2,8 @@
 
 Search Enzyme JS API in [https://github.com/airbnb/enzyme/tree/master/docs/api](https://github.com/airbnb/enzyme/tree/master/docs/api). 
 
+![Demo](docs/demo_immutablejs_search_api.gif)
+
 ## Installation
 
 [import-workflow-source-to-alfred.md](https://github.com/tung-dang/alfred-workflow-nodejs-next/blob/master/docs/import-workflow-source-to-alfred.md)
@@ -17,4 +19,4 @@ Search Enzyme JS API in [https://github.com/airbnb/enzyme/tree/master/docs/api](
 ## Development
 
 - `yarn run export-wf`: zip entire project and export to `exported-workflow-file/YarnApiSearch.alfredworklow` file 
-- `yarn run push-to-origin`: export --> commit --> push to Github
+- `yarn run export-push`: export --> commit --> push to Github
