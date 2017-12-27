@@ -13,7 +13,9 @@
     "octonode": "^0.9.1"
   },
   "scripts": {
-    "export-wf": "git archive --format zip --output ./exported-workflow-file/EnzymeJSApiSearch.alfredworkflow master",
+    "clean": "rm -rf ./exported-workflow-file/*.*",
+    "archive-zip": "git archive --verbose --format zip --output ./exported-workflow-file/EnzymeJSApiSearch.alfredworkflow master",
+    "export-wf": "yarn run clean && yarn run archive-zip",
     "export-push": "yarn run export-wf && git add --all && git commit -m \"export workflow to file\" && git push --follow-tags"
   },
   "bin": {
