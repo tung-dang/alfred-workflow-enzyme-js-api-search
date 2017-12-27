@@ -1,6 +1,6 @@
 ## Features
 
-Search Enzyme JS API in [https://github.com/airbnb/enzyme/tree/master/docs/api](https://github.com/airbnb/enzyme/tree/master/docs/api). 
+Search Enzyme JS API in [https://github.com/airbnb/enzyme/tree/master/docs/api](https://github.com/airbnb/enzyme/tree/master/docs/api).
 
 ![Demo](docs/demo_enzyme_js_api_search.gif)
 
@@ -11,6 +11,7 @@ Search Enzyme JS API in [https://github.com/airbnb/enzyme/tree/master/docs/api](
 ## Usage
 
 ### Commands
+
 - `enzy`: Search Yarn API from [https://github.com/airbnb/enzyme/tree/master/docs/api](https://github.com/airbnb/enzyme/tree/master/docs/api).
     + Enter to open a selected API in `http://airbnb.io/enzyme/docs/api/` website
     + CMD + Enter to open an selected API in GitHub page `https://github.com/airbnb/enzyme/tree/master/docs/api`
@@ -18,5 +19,5 @@ Search Enzyme JS API in [https://github.com/airbnb/enzyme/tree/master/docs/api](
 
 ## Development
 
-- `yarn run export-wf`: zip entire project and export to `exported-workflow-file/YarnApiSearch.alfredworklow` file 
+- `yarn run export-wf`: zip entire project and export to `exported-workflow-file/YarnApiSearch.alfredworklow` file
 - `yarn run export-push`: export --> commit --> push to Github

@@ -9,19 +9,28 @@
   },
   "homepage": "https://github.com/tung-dang/alfred-workflow-enzyme-js-api-search",
   "dependencies": {
-    "alfred-workflow-nodejs-next": "^1.0.6",
-    "octonode": "^0.7.10"
+    "alfred-workflow-nodejs-next": "^1.1.2",
+    "octonode": "^0.9.1"
   },
   "scripts": {
     "export-wf": "git archive --format zip --output ./exported-workflow-file/EnzymeJSApiSearch.alfredworkflow master",
     "export-push": "yarn run export-wf && git add --all && git commit -m \"export workflow to file\" && git push --follow-tags"
   },
+  "bin": {
+    "run-node": "./scripts/run-node.sh"
+  },
+  "files": [
+    "./scripts/run-node.sh"
+  ],
   "contributors": [
     {
       "name": "Tung Dang",
       "email": "tung.dang.js@gmail.com",
-      "url": "https://github.com/tung-dang"
+      "url": "https://tung-dang.github.io/"
     }
   ],
+  "engines": {
+    "node": ">=8"
+  },
   "license": "MIT"
 }
